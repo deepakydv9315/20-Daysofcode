@@ -2,16 +2,130 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
 
 /* default settings  */
-*{
-    margin: 0px; padding: 0px;
+* {
+    margin: 0px;
+    padding: 0px;
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
 }
 
-:root{
+
+:root {
     --dark: #000000;
     --fade-dark: #14213D;
     --yellow: #FCA311;
     --fade-light: #E5E5E5;
     --light: #ffffff;
+}
+
+/* Reuseble classes  */
+
+.container {
+    padding: 15px 60px;
+}
+
+.flex-c {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.flex-r {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+}
+
+/* HEADER*/
+header {
+    width: 100%;
+}
+
+nav {
+    border: 1px solid black;
+    justify-content: space-between !important;
+    background-color: var(--fade-dark);
+    color: var(--light);
+    font-size: 22px;
+}
+
+.nav-link{
+    gap: 0px 10px;
+}
+.nav-link a{
+    font-size: 20px;
+    color: var(--light);
+    text-decoration: none;
+    padding: 3px 7px;
+}
+
+.pr-wrapper{
+    padding-top: 50px !important;
+    padding-bottom: 50px !important;
+    width: 100%;
+    background-color: var(--fade-light);
+    gap: 50px;
+}
+
+
+.pr-card{
+    width: 340px;
+    /* border:1px solid rgb(185, 185, 185); */
+    padding: 20px 10px;
+    background-color: var(--light);
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px 1px rgba(145, 145, 145, 0.332);
+}
+
+.pr-img{
+    width: 300px;
+    height: 250px;
+    background-color: var(--fade-light);
+    border-radius: 5px;
+    margin: 0px auto;
+}
+
+.pr-name{
+    font-size: 30px;
+    margin: 10px 0px 5px 0px;
+}
+
+.pr-tech{
+    gap: 0px 8px;
+    font-size: 24px;
+    justify-content: flex-start !important;
+    margin-bottom: 18px;
+}
+
+.btn{
+    outline: none;
+    cursor: pointer;
+    text-decoration: none;
+    padding: 10px 7px;
+    border-radius: 4px;
+    text-align: center;
+}
+.pr-btn{
+    gap: 0px 15px;
+    justify-content: flex-start !important;
+}
+.pr-btn i{
+    font-size: 17px;
+    margin-right: 2px;
+}
+.src-btn{
+    background-color: var(--fade-dark);
+    color: var(--light);
+}
+.live-btn{
+    background-color: var(--yellow);
+    color: var(--light);
+    
 }
