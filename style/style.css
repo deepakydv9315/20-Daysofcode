@@ -1,0 +1,17 @@
+/* link fonts  */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
+
+/* default settings  */
+*{
+    margin: 0px; padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+:root{
+    --dark: #000000;
+    --fade-dark: #14213D;
+    --yellow: #FCA311;
+    --fade-light: #E5E5E5;
+    --light: #ffffff;
+}
