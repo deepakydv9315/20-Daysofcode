@@ -37,6 +37,15 @@
     align-items: center;
     flex-direction: row;
 }
+.fa-html5{
+    color: #DD4B25;
+}
+.fa-css3-alt{
+    color: #254BDD;
+}
+.fa-js{
+    color: #D3B32C;
+}
 
 body {
     width: 100%;
@@ -64,6 +73,11 @@ nav {
     color: var(--light);
     text-decoration: none;
     padding: 3px 7px;
+    transition: all 0.1s linear;
+}
+
+.nav-link a:hover{
+    transform: translateY(-1px);
 }
 
 .pr-wrapper{
@@ -72,6 +86,7 @@ nav {
     width: 100%;
     background-color: var(--fade-light);
     gap: 50px;
+    flex-wrap: wrap;
 }
 
 
@@ -111,6 +126,10 @@ nav {
     padding: 10px 7px;
     border-radius: 4px;
     text-align: center;
+    transition: all 0.2s linear;
+}
+.btn:hover{
+    transform: translateY(-1px);
 }
 .pr-btn{
     gap: 0px 15px;
@@ -127,5 +146,19 @@ nav {
 .live-btn{
     background-color: var(--yellow);
     color: var(--light);
+    
+}
+
+
+.dev-info{
+    background-color: var(--fade-light); 
+    text-align: center;
+    font-weight: 500;
+    letter-spacing: 1px;
+    font-size: 19px;
+}
+
+.dev-info a{
+    color: black;
     
 }
