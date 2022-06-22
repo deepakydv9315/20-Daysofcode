@@ -106,6 +106,10 @@ nav {
     border-radius: 5px;
     margin: 0px auto;
 }
+#day-1 .pr-img{
+    background: url(../projects/day-1-github_login/github-login.png);
+    /* background-size: cover; */
+}
 
 .pr-name{
     font-size: 30px;
