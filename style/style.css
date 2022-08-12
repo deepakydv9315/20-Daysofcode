@@ -109,12 +109,22 @@ nav {
     border-radius: 5px;
     margin: 0px auto;
 }
+
+/* Thumbnails for days card  */
+
 #day-1 .pr-img{
     background: url(../projects/day-1-github_login/day1-thumb.png);
     /* background-size: cover; */
 }
 #day-2 .pr-img{
     background: url(../projects/day-2-payment-ui/day2-thumb.png);
+    background-position: center center;
+    background-size: cover;
+}
+#day-3 .pr-img{
+    background: url(../projects/day-3-mastercard/mastercard-thumb.png);
+    background-position: center center;
+    background-size: cover;
 }
 
 .pr-name{
